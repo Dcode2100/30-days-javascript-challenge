@@ -3,6 +3,7 @@
 // 
 //Q1. Write a function that takes a string as an argument and returns true if it's a palindrome, false otherwise.
 
+/*
 function palindromeChecker() {
     var str = [3,4,5,1,2,5,4,3];
     var i = 0,j = str.length-1;
@@ -19,7 +20,6 @@ function palindromeChecker() {
 }
 
 palindromeChecker();
+*/
 
-
-// Q2. Given an array of numbers, write a function to find the two numbers that add up to a target number.
 
