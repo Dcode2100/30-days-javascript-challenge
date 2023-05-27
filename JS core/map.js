@@ -27,3 +27,4 @@ const output3 = arr.map((x) => x.toString(2));
 
 console.log(output3);
 
+
