@@ -20,3 +20,4 @@ const obj = {
   console.log(obj1, obj2, obj3);
 // output is {name: "John"} {name: "Jane"} {} since obj3 is empty object and obj2 is created using new keyword and obj1 is created using object literal syntax
 // literal syntax is faster than new keyword and also they are same
+

@@ -1,28 +1,30 @@
 // The given number is an integer or not
 
-// function isint (n){
-//     let x =  n % 1 === 0;
-//     console.log(x);
-// }
-// const x = "asdf";
-// isint(x);
+function isint (n){
+    let x =  n % 1 === 0;
+    console.log(x);
+}
+const x = "asdf";
+isint(x);
+
+// output - false because it is not an integer since on 
 
 //duplicate and add the same array to itself
 
-// function add(arr){
-//     return(arr.concat(arr));
-//     add([2,3,4,5]);
-// }
+function add(arr){
+    return(arr.concat(arr));
+}
+    add([2,3,4,5]);
 
 //Write a "mul" function which will properly when invoked as below syntax
 
-// function mul(x){
-//     return function(y){
-//         return function(z) {
-//             return x * y * z;
-//         };
-//     };
-// }
+function mul(x){
+    return function(y){
+        return function(z) {
+            return x * y * z;
+        };
+    };
+}
 
 // console.log(mul(2)(3)(4));
 

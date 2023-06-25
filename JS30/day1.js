@@ -19,7 +19,6 @@ function palindromeChecker() {
     }
     console.log(ans);
 }
-
 palindromeChecker();
 
 
